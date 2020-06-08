@@ -1,0 +1,32 @@
+.product{
+    border: 1px solid lightgray;
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+}
+
+.product h3{
+    font-weight: 500;
+    color: #136;
+}
+
+.product-details{
+    padding-left: 10px;
+}
+
+.main-btn{
+    height: 30px;
+    width: 130px;
+    padding: 5px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    background: linear-gradient(120deg, #136, rgb(118, 138, 199)); 
+}
+
+.main-btn:hover{
+    
+    background: linear-gradient(120deg, rgb(118, 138, 199), #136);
+}

@@ -1,0 +1,21 @@
+.cart{
+    padding: 5px;
+    padding-left: 30px;
+}
+
+.cart-button{
+    height: 30px;
+    width: 385px;
+    padding: 5px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    background: linear-gradient(120deg, #136, rgb(118, 138, 199)); 
+}
+
+.cart-button:hover{
+    
+    background: linear-gradient(120deg, rgb(118, 138, 199), #136);
+}
